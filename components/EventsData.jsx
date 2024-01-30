@@ -9,7 +9,7 @@
     skills: ["A1-1", "A2-2"],
   },
   {
-    day: 1,
+    day: 2,
     hour: 0,
     teacherName: "Jack J",
     endHour: 1,
