@@ -1,3 +1,4 @@
+import WeeklyCalendar from "@/components/Calendar";
 import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
@@ -11,7 +12,8 @@ export default function Home() {
           enableSystem
           disableTransitionOnChange
         >
-          <Header />
+          <Header  />
+          <WeeklyCalendar />
         </ThemeProvider>
       </main>
     </>
