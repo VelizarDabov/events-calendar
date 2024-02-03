@@ -44,6 +44,7 @@ const WeeklyCalendar = () => {
                   }`}
                   style={{ width: dayWidth }}
                 >
+                  {/* first way of addin 0 if the date is lower than 10 */}
                   <div className="">
                     {day} -{" "}
                     {currentDayDate < 10
@@ -66,6 +67,7 @@ const WeeklyCalendar = () => {
 
             return hasEventsForHour ? (
               <tr key={hour}>
+                {/* second way of adding 0 if hours is lower than 10 */}
                 <td className="p-10 h-32 border-b">{`${hour
                   .toString()
                   .padStart(2, "0")}:00`}</td>

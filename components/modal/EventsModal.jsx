@@ -6,7 +6,7 @@ const EventsModal = ({ name, isOpen, startHour, endHour, setIsOpen}) => {
     setIsOpen(false);
   };
   return (
-    <Dialog open={isOpen} onClose={handleClose} className="relative z-50 ">
+    <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative z-50 ">
       <div className="fixed inset-0 bg-black/30 " aria-hidden="true" />
 
       <div className="fixed inset-0 flex w-screen items-center justify-center p-4">
