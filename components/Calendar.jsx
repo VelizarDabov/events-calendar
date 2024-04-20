@@ -1,4 +1,4 @@
-import React from "react";
+
 import Events from "./Events";
 import { events } from "./EventsData";
 const WeeklyCalendar = () => {

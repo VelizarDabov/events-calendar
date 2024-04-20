@@ -1,7 +1,4 @@
 
-
-//if we have events bigger than 1 hour we can merge the cells 
-
 "use client";
 import React, { useState } from "react";
 import { Avatar, AvatarImage } from "./ui/avatar";

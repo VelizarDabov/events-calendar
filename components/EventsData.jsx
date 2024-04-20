@@ -1,5 +1,4 @@
- 
- //If you want i will make functionality for this days represented  number from (0 to 6) to (Monday - Sunday)
+
  export const events = [
   {
     day: 0,
